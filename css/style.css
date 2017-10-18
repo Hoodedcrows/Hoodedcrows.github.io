@@ -244,6 +244,7 @@ align-items: center;
 .images ol{
  padding: 20px;
 align-items: center;
+text-align: center;
 
 
 }
@@ -253,6 +254,7 @@ align-items: center;
 	list-style: none;
 	padding: 20px;
 	display: inline-block;
+	text-align: 
 
 
 }
