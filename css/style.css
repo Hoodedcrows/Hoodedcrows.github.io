@@ -290,6 +290,24 @@ footer{
 	margin:0;
 	background-color: #968665;
 }
+
+.social-links {
+	text-align: center;
+	list-style-type: none;
+}
+
+.social-links li {
+	display: inline-block;
+	color: #968665;
+	font-size: 20px
+}
+
+
+.social-links a {
+	text-decoration: none;
+    /*background-color: #968665 ;*/
+
+}
 	
 /*************footer*****************/
 
@@ -384,7 +402,7 @@ footer{
 	height: auto;
 	background-size: contain;
 	background-repeat:no-repeat;
-	max-height: : 100px;
+	max-height: : 10%;
 }
 @media screen and (min-width: 40em){
 .gift { text-align: center;
