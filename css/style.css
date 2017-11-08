@@ -402,8 +402,9 @@ footer{
 	height: auto;
 	background-size: contain;
 	background-repeat:no-repeat;
-	max-height: : 10%;
-}
+	max-height: : 10%; 
+	}
+
 @media screen and (min-width: 40em){
 .gift { text-align: center;
 text-align: center;
