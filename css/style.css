@@ -129,7 +129,7 @@ hidden when on wider screens. */
 
 .logoWrapper2 img {
 	width: 100%;
-	/*margin: 0 auto;*/
+	margin: 0;
 	display: block;
 	margin-bottom: -160px;
 
@@ -142,8 +142,9 @@ hidden when on wider screens. */
 h1{text-align: center;
 background-color: #96423C;
 		padding: 20px;
-		margin-bottom:100px;
-color:#eee;}
+		/*margin-bottom:100px;*/
+color:#eee;
+ }
  
 
 /*.hero img {
@@ -330,7 +331,6 @@ footer{
 	
 /*************footer*****************/
 
-iframe{margin-bottom: -900px}
 
 
 /********************************************/
