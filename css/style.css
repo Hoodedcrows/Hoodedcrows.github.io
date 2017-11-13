@@ -17,8 +17,8 @@ body.index {background-image: url('../img/1.jpg');}
 /*************** helper classes ***********/
 
 .imageResponsive {
-
 	max-width: 100%;
+	margin-top: 100px;
 }
 
 /********** nav **********/
@@ -121,19 +121,17 @@ hidden when on wider screens. */
 .logoWrapper2{
 	width: 100%;
 	/*margin: 0 auto; */
-	padding-top: 9px;
 	background-image: url('../img/7.jpg');
-	height: auto;
-	background-size: contain;
-	background-repeat:no-repeat; }
+	background-size: cover;
+	background-repeat:no-repeat;
+	padding: 50px 0;
+	margin: 0; 
+}
 
 .logoWrapper2 img {
-	width: 100%;
-	margin: 0;
-	display: block;
-	margin-bottom: -160px;
-
-	
+	width: 30%;
+	margin: 0 auto;
+	display: block;	
 }
 
 /********************************************/
@@ -144,6 +142,7 @@ background-color: #96423C;
 		padding: 20px;
 		/*margin-bottom:100px;*/
 color:#eee;
+margin: 0;
  }
  
 
@@ -399,12 +398,10 @@ footer{
 			padding-left: 150px}*/
 
 @media screen and (min-width: 40em){
-.logowrapper2 { margin-bottom: -500px;
-	height: auto;
-	background-size: contain;
-	background-repeat:no-repeat;
-	max-height: : 10%; 
+.logowrapper2 { 
+ 		
 	}
+}	
 
 @media screen and (min-width: 40em){
 .gift { text-align: center;
@@ -412,7 +409,7 @@ text-align: center;
 
 padding-left: : 500px; }
 @media screen and (min-width: 40em){
-h4,h5 { text-align: center; }
+h4,h5 { text-align: center; }}
 
 @media screen and (min-width: 40em){.imageResponsive{ max-width: 40%; }
 
